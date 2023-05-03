@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* ! Resetleme İşlemleri */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.containers {
+    width: 70%;
+}
+
+.exxenspor {
+    letter-spacing: 2px;
+}
+
+.sign-in {
+    background-color: #111111;
+}
+
+.inp::placeholder {
+    color: black;
+    font-size: 17px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.ekranlar {
+    width: 100%;
+}
+
+.ekranlar-img {
+    width: 25%;
+}
+
+.resimler {
+    width: 100%;
+}
+
+.device {
+    width: 150px;
+}
+
+.device1 {
+    height: 45px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 35px;
+    margin: 50px 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #111111;
+}
+
+@media screen and (max-width:1210px) {
+    .exxenspor {
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .resimler a {
+        width: 50% !important;
+        display: block !important;
+        margin: 20px auto;
+    }
+
+    .device1 {
+        width: 150px;
+    }
+}
